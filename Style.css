@@ -63,7 +63,7 @@ li{
 
 .section_Text{
     display:flex;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     width:33.3333333333%;
     margin-left: .5%;
     margin-right: .5%;
@@ -71,6 +71,18 @@ li{
     display:inline-block;
 }
 
+
+.cursor-flare{
+    display: flex;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    background-color: rgb(162, 162, 162);
+
+    border-radius: 20px;
+    border-color: black;
+    border-width: 10px;
+}
 
 
 
