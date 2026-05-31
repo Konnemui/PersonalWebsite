@@ -9,26 +9,132 @@
 
 html{
     background-color: var(--primary-bg-color);
-
+    width: 100%;
 }
 body{
-    max-width: 75%;
     margin-top: 0px;
-    margin-left: 15%;
+    margin-left: 7%;
     margin-bottom: 0px;
-    margin-right: 15%;
+    margin-right: 7%;
 }
-
-.content{
-    align-items: center;
-
-}
-
-.jira-gif{
-    position: absolute;
-    height: 36.5em;
+header{
+    text-align: left;
+    position: relative;
     border: solid;
-    border-color:     var(--needy-streamer-hair-col-blue);
+    border-width: 1px;
+    border-color: red;
+    height: 25vh;
+
+}
+
+.hero-section{
+    position: relative;
+    border: solid;
+    border-width: 1px;
+    border-color: red;
+    height: 25vh;
+    margin-top: 2.5vh;
+    text-align: center;
+}
+.hero-head-box{
+    width: 100%;
+    height: 3vh;
+}
+.hero-text-header{
+    margin:auto;
+    position: relative;
+    justify-self: center;
+    text-align: center;
+}
+.hero-text{
+    margin:auto;
+    justify-self: center;
+    align-items: center;
+    
+}
+.hero-lower-box{
+        float:left;
+    display: inline;
+    width:50%;
+    align-items: center;
+    height: 22vh;
+
+}
+.hero-left{
+    background-repeat: no-repeat;
+    background-size:cover;
+    opacity: 80%;
+    background-image: url(https://canada1.discourse-cdn.com/flex035/uploads/threejs/original/2X/0/0234c526faf701fa4d3aa72066de983dd2f05050.gif);
+}
+.hero-right{
+    background-color: rgb(0, 0, 0);
+    opacity: 80%;
+    background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWQ5c2JiOTJmemMwamlwZXIyY29jaGNzNzRmZGJzbDB4MzgydzhkdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3Xt4ImBApjsefiD1Ut/giphy.gif);
+}
+
+.main-content{
+    position: relative;
+    border: solid;
+    border-width: 1px;
+    border-color: red;
+    height: 80vh;
+    margin-top: 2.5vh;
+}
+
+.main-body{
+    width: 100%;
+    height: 63vh;
+
+}
+
+.work-experience{
+    height: 33.33%;
+    width:100%;
+    margin-bottom: 1vh;
+}
+
+.technology-list{
+    display:inline-block;
+
+}
+.icon{
+    width: 3vh;
+    height: 3vh;
+}
+.work-experience-section{
+    display: inline-block;
+    
+}
+
+.lower-content{
+        position: relative;
+    border: solid;
+    border-width: 1px;
+    border-color: red;
+    height: 20vh;
+    margin-top: 2.5vh;
+}
+
+.colour-direcitonal-hue{
+    display: flex;
+    font-size: 2em;
+    background: -webkit-linear-gradient(left,
+    var(--needy-streamer-hair-col-blue) 0%,
+    var(--needy-streamer-hair-col-pink) 5%,
+    var(--needy-streamer-hair-col-blue) 20%,
+    var(--needy-streamer-hair-col-pink) 60%,
+    var(--needy-streamer-hair-col-blue) 70%);   
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.jirai-gif{
+    position: relative;
+    width:fit-content;
+    height: 10em;
+    border: solid;
+    border-color: var(--needy-streamer-hair-col-blue);
 
 }
 
@@ -46,25 +152,19 @@ body{
 }
 .jirai-crashout{
     display: flex;
-    width: 100%;
+    width: 7em;
 }
 ul{
     padding-left: 0px;
 }
 
-header{
-    text-align: left;
-    margin-left: 4em;
-    margin-top: 2em;
-    width: 100%;
-    height:10%;
-}
+
 
 .navbar{
     position: sticky;
     top: 20px;
     text-decoration: none;
-    
+    justify-self: center;
 }
 
 .navbar-sections{
@@ -74,7 +174,7 @@ header{
     border-width: 0.2em;
     border-color: rgb(255, 255, 255);
     display: inline;
-    padding-left: 4em;
+    padding: .5vh;
     color:var(--primary-text-color);
     cursor: pointer;
     
@@ -84,22 +184,27 @@ header{
     text-decoration:inherit ;
 }
 
-
-body{
-width:100%;
-height:100%;
-margin:0px;
-padding: 0px;
-
+.lower-content-sect{
+    float:left;
+    display: inline;
+    width:33.33%;
+    background-color: rgb(0, 0, 0);
+    height: 100%;
 }
+
 
 .monke_image{
     width: 50%;
 }
 
 .content{
-width:100%;
-overflow: hidden;
+    width:100%;
+    overflow: hidden;
+
+    align-items: center;
+    height:fit-content;
+    background-image: url("../resources/desktop/desktop/JINEBG.png");
+
 }
 .header{
     width:100%;
@@ -164,6 +269,26 @@ li{
     border-color: black;
     border-width: 10px;
 }
+.item-box{
+    width: 100%;
+    position: relative;
 
-
-
+}
+.project-box{
+    width: 20em;
+    height: 40em;
+    border: solid;
+    border-width: 1px;
+    border-color: brown;
+    display:inline-block;
+    position: relative;
+    align-items:center;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+.contact-box{
+    display: inline-grid;
+}
+.content-text{
+ text-decoration: none;
+}

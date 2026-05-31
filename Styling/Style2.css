@@ -1,0 +1,42 @@
+:root{
+    font-size: 15px;
+    margin-left: 10px;
+    --margin-xxs: .25rem;
+    --margin-xs: .5rem;
+    --margin-s: .75rem;
+    --margin-m: 1rem;
+    --margin-l: 1.25rem;
+    --margin-xl: 1.5rem;
+    --margin-xxl: 1.75rem;
+    --margin-xxxl: 2rem;
+    --spacing-m: 2rem;
+}
+
+html{
+    background-color: rgb(44, 44, 44)
+}
+
+.nav-box{
+float:left;
+width: 150px;
+
+}
+
+.card{
+    width: 150px;
+    height: auto;
+    
+    background-color: white;
+}
+
+.card h1{
+    font-size: var(--margin-l);
+}
+
+.card p{
+    font-size: var(--margin-s);
+}
+
+.card a{
+    font-size: var(--margin-m);
+}
