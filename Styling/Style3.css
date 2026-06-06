@@ -1,0 +1,92 @@
+:root{
+    font-size: 15px;
+    margin-left: 10px;
+    --font-xxs: .25rem;
+    --font-xs: .5rem;
+    --font-s: .75rem;
+    --font-m: 1rem;
+    --font-l: 1.25rem;
+    --font-xl: 1.5rem;
+    --font-xxl: 1.75rem;
+    --font-xxxl: 2rem;
+    --spacing-m: 2rem;
+
+    --needy-streamer-hair-col-blue: rgb(151, 234, 234);
+    --needy-streamer-hair-col-pink: rgb(243, 189, 236);
+    background-color: rgb(98, 98, 98);
+}
+#bracket-open{
+font-size: xx-large;
+display: inline;
+}
+#Loading{
+
+    font-size: xx-large;
+    content: "TEST";
+}
+#elipse::before{
+    font-size: xx-large;
+
+    content: " ";
+    animation: animElipse 3s  infinite;
+    animation-duration: 4;
+}
+#bracket-close{
+font-size: xx-large;
+}
+
+body{
+    animation: background-anim 5s infinite ;
+}
+
+#other-test::before{
+    color: rgb(60, 122, 104);
+    margin-left: 42%;
+    font-size: xx-large;
+    content: "";
+    animation: animElipse2 3s  infinite;
+    animation-duration: 4;
+}
+
+
+.jirai-crashout{
+    align-items: center;
+}
+.Loading-box{
+    padding-left:  40%;
+    display: inline;
+}
+
+p{
+    
+}
+
+
+
+/* animation keyframes below */
+
+@keyframes animElipse {
+    0%  {content:" " }
+    25% {content:".";}
+    50% {content:"..";}
+    100%{content:"..."; }
+}
+
+
+
+@keyframes animElipse2 {
+    0%     {content:"portfolio-site:~$ " }
+    16.66%  {content:"portfolio-site:~$ █" }
+    33.33% {content:"portfolio-site:~$ ";}
+    50% {content:"portfolio-site:~$ █";}
+    66.66%{content:"portfolio-site:~$ ";}
+    83.33% {content:"portfolio-site:~$ █";}
+    100% {content:"portfolio-site:~$ ";}
+}
+
+
+@keyframes background-anim {
+    0% {background-color:var(--needy-streamer-hair-col-blue);}
+    50% {background-color:var(--needy-streamer-hair-col-pink); }
+    100% {background-color:var(--needy-streamer-hair-col-blue);}
+}
